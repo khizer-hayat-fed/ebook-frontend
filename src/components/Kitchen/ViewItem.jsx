@@ -29,7 +29,7 @@ export const ViewItem = ({ data }) => {
           <h6>Image:</h6>
           <img
                             src={
-                                `http://localhost:5000/uploads/${data?.photo}`
+                                `https://ebook-backend-production.up.railway.app/uploads/${data?.photo}`
                             }
                             alt="UploadedImage"
                             width={180} height={180}

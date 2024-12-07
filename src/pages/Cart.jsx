@@ -122,7 +122,7 @@ const Cart = () => {
                           <img
                             src={
                               item?.photo
-                                ? `http://localhost:5000/uploads/${item?.photo}`
+                                ? `https://ebook-backend-production.up.railway.app/uploads/${item?.photo}`
                                 : require("../Assets/noImage.png")
                             }
                             className="img-fluid rounded-3"

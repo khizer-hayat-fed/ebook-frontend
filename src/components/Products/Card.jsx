@@ -129,7 +129,7 @@ export const Card = ({
       style={{ width: "18rem", marginTop: "10px", marginBottom: "10px", height:'28rem' }}
     >
       <img
-        src={photo ? `http://localhost:5000/uploads/${photo}` : require("../../Assets/noImage.png")}
+        src={photo ? `https://ebook-backend-production.up.railway.app/uploads/${photo}` : require("../../Assets/noImage.png")}
         class="card-img-top"
         alt="Laptop"
         style={{height:'20vh'}}

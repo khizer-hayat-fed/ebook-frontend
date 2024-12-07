@@ -115,7 +115,7 @@ export const AddItemForm = ({ formData, setFormData,image, setImage, shopId }) =
           {image ? (
             <div style={{display:'flex', flexDirection:'column'}}>
             <img
-              src={ typeof image !== 'string' ? URL.createObjectURL(image) : `http://localhost:5000/uploads/${image}`}
+              src={ typeof image !== 'string' ? URL.createObjectURL(image) : `https://ebook-backend-production.up.railway.app/uploads/${image}`}
               alt="UploadedImage"
               width={180}
               height={180}

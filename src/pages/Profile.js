@@ -79,7 +79,7 @@ const Profile = () => {
                             src={
                                 image ?
                                     URL.createObjectURL(image)
-                                    : `http://localhost:5000/uploads/${data?.data?.photo}`
+                                    : `https://ebook-backend-production.up.railway.app/uploads/${data?.data?.photo}`
                             }
                             alt="UploadedImage"
                             className="mb-1"
